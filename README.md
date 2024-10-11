@@ -1,0 +1,14 @@
+# Anomaly Detection in Time Series Data
+<h3>Anomaly detection is the process of identifying data points or patterns in a dataset that deviate significantly from the norm. A time series is a collection of data points gathered over some time. Anomaly detection in time series data may be helpful in various industries, including manufacturing, healthcare, and finance. Anomaly detection in time series data may be accomplished using unsupervised learning approaches like clustering, PCA (Principal Component Analysis), and autoencoders.</h3>
+<h2>What is an Anomaly Detection Algorithm?</h2>
+<h3>Anomaly detection is the process of identifying data points that deviate from the expected patterns in a dataset. Many applications, including fraud detection, intrusion detection, and failure detection, often use anomaly detection techniques. Finding uncommon or very infrequent events that could point to a possible hazard, issue, or opportunity is the aim of anomaly detection. The autoencoder algorithm is an unsupervised deep learning algorithm that can be used for anomaly detection in time series data. The autoencoder is a neural network that learns to reconstruct its input data By first compressing input data into a lower-dimensional representation and then extending it back to its original dimensions. An autoencoder may be trained on typical time series data to learn a compressed version of the data for anomaly identification. The anomaly score may then be calculated using the reconstruction error between the original and reconstructed data. Anomalies are data points with considerable reconstruction errors.</h3>
+<h2>Time Series Data and Anamoly Detection</h2>
+<h3>In the case of time series data, anomaly detection algorithms are especially important since they help us spot odd patterns in the data that would not be obvious from just looking at the raw data. Anomalies in time series data might appear as abrupt increases or decrease in values, odd patterns, or unexpected seasonality. Time series data is a collection of observations across time.</h3>
+<h2>Libraries used in this project: </h2>
+<ul>
+  <li><b>Pandas: </b>This library helps to load the data frame in a 2D array format and has multiple functions to perform analysis tasks in one go.</li>
+  <li><b>Numpy: </b>Numpy arrays are very fast and can perform large computations in a very short time.</li>
+  <li><b>Matplotlib/Seaborn: </b>This library is used to draw visualizations.</li>
+  <li><b>Sklearn: </b> This module contains multiple libraries having pre-implemented functions to perform tasks from data preprocessing to model development and evaluation.</li>
+  <li><b>Tensorflow: </b> This is an open-source library that is used for Machine Learning and Artificial intelligence and provides a range of functions to achieve complex functionalities with single lines of code.</li>
+</ul>
